@@ -1,49 +1,69 @@
 # Hi, I'm Helmut 👋
 
-📍 **Vienna, Austria** | 🔧 **Browser Engine Contributor**
+📍 **Vienna, Austria** | 🔧 **Browser Engine Contributor** | 🚀 **Fastlane Core Contributor**
 
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Ruby](https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Chromium](https://img.shields.io/badge/-Chromium-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 
 > Turning tweets into browser features. Currently bringing JPEG XL back to Chromium with Rust.
 
 ## Current Work
 
-- 🖼️ **[JPEG XL Revival](https://januschka.com/chromium-jxl-resurrection.html)** - Part of the team bringing JPEG XL back to Chromium with [jxl-rs](https://github.com/libjxl/jxl-rs) (the pure Rust decoder)
-- 🎯 **[Tab Focus](https://januschka.com/chromium-focus-feature.html)** - Implemented [@tobi's idea](https://x.com/tobi/status/1957195479361438142): `chrome --focus=*github.com/*` focuses existing tabs instead of opening duplicates (Chrome 143)
-- 🎨 **[Omarchy Chromium](https://github.com/basecamp/omarchy-chromium)** - Maintaining DHH's vision for scriptable browser theming
-- 📺 **[Video Lazy Loading](https://januschka.com/chromium-video-lazy-loading.html)** - Finally! `<video loading="lazy">` landed in Chromium
+- 🖼️ **[JPEG XL Revival](https://januschka.com/chromium-jxl-resurrection.html)** - Part of the team bringing JPEG XL back to Chromium with [jxl-rs](https://github.com/libjxl/jxl-rs)
+- 🎯 **[Tab Focus](https://januschka.com/chromium-focus-feature.html)** - Implemented [@tobi's idea](https://x.com/tobi/status/1957195479361438142): `chrome --focus=*github.com/*` (Chrome 143)
+- 🎨 **[Omarchy Chromium](https://github.com/omacom-io/omarchy-chromium)** - Custom Chromium builds for [Omarchy](https://omarchy.org)
+- 📺 **[Video Lazy Loading](https://januschka.com/chromium-video-lazy-loading.html)** - `<video loading="lazy">` landed in Chromium
 
 ## Browser Trinity ✅
 
 Contributing to all three major browser engines:
 
-| Engine | What |
-|--------|------|
+| Engine | Contributions |
+|--------|---------------|
 | **Chromium** | OWNER status, JPEG XL, Tab Focus, DevTools |
+| **WebKit** | Resource Timing L3, ImageLoader, CSP |
 | **Firefox** | Resource Timing L3, Video lazy loading |
-| **WebKit** | Resource Timing L3 |
 
-## Projects
+## Open Source
 
 | Project | Role |
 |---------|------|
-| [Chromium](https://chromium.googlesource.com/chromium/src/) | Contributor & OWNER |
+| [fastlane](https://github.com/fastlane/fastlane) | Core contributor (145+ PRs) |
 | [jxl-rs](https://github.com/libjxl/jxl-rs) | Core contributor |
-| [omarchy-chromium](https://github.com/basecamp/omarchy-chromium) | Maintainer |
-| [PDFium](https://pdfium.googlesource.com/pdfium/) | Contributor |
+| [Chromium](https://chromium.googlesource.com/chromium/src/) | Contributor & OWNER |
 | [LLVM/clang-tidy](https://github.com/llvm/llvm-project) | Contributor |
+
+### Fastlane Plugins
+
+| Plugin | ⭐ |
+|--------|-----|
+| [aws_device_farm](https://github.com/hjanuschka/fastlane-plugin-aws_device_farm) | 87 |
+| [update_project_codesigning](https://github.com/hjanuschka/fastlane-plugin-update_project_codesigning) | 52 |
+| [cryptex](https://github.com/hjanuschka/fastlane-plugin-cryptex) | 36 |
+
+### Pi Extensions
+
+| Extension | ⭐ |
+|-----------|-----|
+| [shitty-extensions](https://github.com/hjanuschka/shitty-extensions) | 51 |
+| [pi-qmd](https://github.com/hjanuschka/pi-qmd) | 11 |
+
+### JPEG XL Tools
+
+- [jxl-rs-polyfill](https://github.com/hjanuschka/jxl-rs-polyfill) - Browser polyfill via WASM
+- [jxl-ui](https://github.com/hjanuschka/jxl-ui) - Native viewer built with GPUI
+- [material-gtk-generator](https://github.com/hjanuschka/material-gtk-generator) - Chrome's M3 colors for GTK
 
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Lazy Loading for Video & Audio in Chrome](https://januschka.com/chromium-video-lazy-loading.html)
+- [Lazy Loading for Video & Audio](https://januschka.com/chromium-video-lazy-loading.html)
 - [JPEG XL Returns to Chrome](https://januschka.com/chromium-jxl-resurrection.html)
-- [From Tweet to Chrome: Tab Focus Feature](https://januschka.com/chromium-focus-feature.html)
-- [Dynamic Chrome Themes: Building DHH's Vision](https://januschka.com/chromium-omarchy.html)
+- [Tab Focus Feature](https://januschka.com/chromium-focus-feature.html)
+- [Dynamic Chrome Themes for Omarchy](https://januschka.com/chromium-omarchy.html)
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect
@@ -55,12 +75,3 @@ Contributing to all three major browser engines:
 ---
 
 **Day job:** Head of Engineering at [krone.at](https://krone.at) | CEO & CTO at [Captcha.eu](https://captcha.eu)
-
-<details>
-<summary>Fun facts</summary>
-
-- Fixed a [3.5-year-old race condition](https://januschka.com/chromium-pseudonymization-salt.html) in Chromium's IPC
-- Solved a [Wayland crash](https://januschka.com/chromium-wayland-crash.html) in 72 hours from first report
-- Powered by Vienna coffee ☕
-
-</details>
