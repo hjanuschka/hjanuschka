@@ -13,7 +13,7 @@
 ## Current Work
 
 - 🖼️ **[JPEG XL Revival](https://januschka.com/chromium-jxl-resurrection.html)** - Part of the team bringing JPEG XL back to Chromium with [jxl-rs](https://github.com/libjxl/jxl-rs) (the pure Rust decoder)
-- 🎯 **[Tab Focus](https://januschka.com/chromium-focus-feature.html)** - Implemented [Tobi Lütke's idea](https://x.com/tobi/status/1957195479361438142): `chrome --focus=*github.com/*` focuses existing tabs instead of opening duplicates (Chrome 143)
+- 🎯 **[Tab Focus](https://januschka.com/chromium-focus-feature.html)** - Implemented [@tobi's idea](https://x.com/tobi/status/1957195479361438142): `chrome --focus=*github.com/*` focuses existing tabs instead of opening duplicates (Chrome 143)
 - 🎨 **[Omarchy Chromium](https://github.com/basecamp/omarchy-chromium)** - Maintaining DHH's vision for scriptable browser theming
 - 📺 **[Video Lazy Loading](https://januschka.com/chromium-video-lazy-loading.html)** - Finally! `<video loading="lazy">` landed in Chromium
 
