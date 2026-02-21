@@ -1,10 +1,9 @@
 # Hi, I'm Helmut 👋
 
-📍 **Vienna, Austria** | 🔧 **Browser Engine Contributor** | 🚀 **Fastlane Core Contributor**
+📍 **Vienna, Austria** | 🔧 **Browser Engine Contributor**
 
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Ruby](https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 
@@ -31,18 +30,9 @@ Contributing to all three major browser engines:
 
 | Project | Role |
 |---------|------|
-| [fastlane](https://github.com/fastlane/fastlane) | Core contributor (145+ PRs) |
 | [jxl-rs](https://github.com/libjxl/jxl-rs) | Core contributor |
 | [Chromium](https://chromium.googlesource.com/chromium/src/) | Contributor & OWNER |
 | [LLVM/clang-tidy](https://github.com/llvm/llvm-project) | Contributor |
-
-### Fastlane Plugins
-
-| Plugin | ⭐ |
-|--------|-----|
-| [aws_device_farm](https://github.com/hjanuschka/fastlane-plugin-aws_device_farm) | 87 |
-| [update_project_codesigning](https://github.com/hjanuschka/fastlane-plugin-update_project_codesigning) | 52 |
-| [cryptex](https://github.com/hjanuschka/fastlane-plugin-cryptex) | 36 |
 
 ### Pi Extensions
 
