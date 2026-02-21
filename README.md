@@ -16,17 +16,9 @@
 - 🎨 **[Omarchy Chromium](https://github.com/omacom-io/omarchy-chromium)** - Custom Chromium builds for [Omarchy](https://omarchy.org)
 - 📺 **[Video Lazy Loading](https://januschka.com/chromium-video-lazy-loading.html)** - `<video loading="lazy">` landed in Chromium
 
-## Browser Trinity ✅
-
-Contributing to all three major browser engines:
-
-| Engine | Contributions |
-|--------|---------------|
-| **Chromium** | OWNER status, JPEG XL, Tab Focus, DevTools |
-| **WebKit** | Resource Timing L3, ImageLoader, CSP |
-| **Firefox** | Resource Timing L3, Video lazy loading |
-
 ## Open Source
+
+*Contributed to all three major browser engines (Chromium, WebKit, Firefox)*
 
 | Project | Role |
 |---------|------|
