@@ -9,7 +9,6 @@ Contributing to browser engines, compilers, and open source tooling.
 ## 2025 Highlights
 
 - **Chromium OWNER** - Earned maintainer status via the Tab Focus feature
-- **115+ merged contributions** across Chromium, PDFium, and jxl-rs
 - **Browser Trinity** - Contributed to all three major engines (Chromium, Firefox, WebKit)
 - **JPEG XL Revival** - Part of the team bringing JPEG XL back to Chromium with a Rust decoder
 
@@ -18,7 +17,7 @@ Contributing to browser engines, compilers, and open source tooling.
 | Project | Role |
 |---------|------|
 | [Chromium](https://chromium.googlesource.com/chromium/src/) | Contributor & OWNER |
-| [jxl-rs](https://github.com/libjxl/jxl-rs) | Core contributor (28 merged PRs) |
+| [jxl-rs](https://github.com/libjxl/jxl-rs) | Core contributor |
 | [omarchy-chromium](https://github.com/basecamp/omarchy-chromium) | Maintainer |
 | [LLVM/clang-tidy](https://github.com/llvm/llvm-project) | Contributor |
 
@@ -30,7 +29,7 @@ Contributing to browser engines, compilers, and open source tooling.
 - DevTools improvements (geolocation accuracy, JSON pretty-print, console history)
 
 **PDFium**
-- 9 merged CLs adding new APIs for font matching, object manipulation, and PDF version handling
+- New APIs for font matching, object manipulation, and PDF version handling
 
 **LLVM**
 - clang-tidy checks for C++ modernization (`substr` -> `starts_with`)
