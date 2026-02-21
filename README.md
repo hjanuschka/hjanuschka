@@ -32,7 +32,7 @@ Contributing to browser engines, compilers, and open source tooling.
 - New APIs for font matching, object manipulation, and PDF version handling
 
 **LLVM**
-- clang-tidy checks for C++ modernization (`substr` -> `starts_with`)
+- clang-tidy checks for C++ modernization
 
 ## Links
 
