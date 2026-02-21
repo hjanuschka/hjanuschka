@@ -45,7 +45,6 @@ Contributing to all three major browser engines:
 
 - [jxl-rs-polyfill](https://github.com/hjanuschka/jxl-rs-polyfill) - Browser polyfill via WASM
 - [jxl-ui](https://github.com/hjanuschka/jxl-ui) - Native viewer built with GPUI
-- [material-gtk-generator](https://github.com/hjanuschka/material-gtk-generator) - Chrome's M3 colors for GTK
 
 ## Latest Blog Posts
 
