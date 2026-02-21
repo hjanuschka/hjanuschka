@@ -1,6 +1,6 @@
 # Hi, I'm Helmut 👋
 
-📍 **Vienna, Austria** | 🔧 **Browser Engine Contributor** | 🦀 **Rust Enthusiast**
+📍 **Vienna, Austria** | 🔧 **Browser Engine Contributor**
 
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
@@ -8,14 +8,13 @@
 ![Chromium](https://img.shields.io/badge/-Chromium-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-> Turning tweets into browser features. Currently deep in Chromium's networking stack, bringing JPEG XL back with Rust, and fixing bugs that have been open longer than some interns have been employed.
+> Turning tweets into browser features. Currently bringing JPEG XL back to Chromium with Rust.
 
 ## Current Work
 
 - 🖼️ **[JPEG XL Revival](https://januschka.com/chromium-jxl-resurrection.html)** - Part of the team bringing JPEG XL back to Chromium with [jxl-rs](https://github.com/libjxl/jxl-rs) (the pure Rust decoder)
 - 🎯 **[Tab Focus](https://januschka.com/chromium-focus-feature.html)** - Implemented [Tobi Lütke's idea](https://x.com/tobi/status/1957195479361438142): `chrome --focus=*github.com/*` focuses existing tabs instead of opening duplicates (Chrome 143)
 - 🎨 **[Omarchy Chromium](https://github.com/basecamp/omarchy-chromium)** - Maintaining DHH's vision for scriptable browser theming
-- 🌐 **[HEv3 & HTTPS-RR](https://januschka.com/reviving-hev3-https-rr.html)** - Reviving Happy Eyeballs v3 with proper RFC 9460 support (63 CLs in flight)
 - 📺 **[Video Lazy Loading](https://januschka.com/chromium-video-lazy-loading.html)** - Finally! `<video loading="lazy">` landed in Chromium
 
 ## Browser Trinity ✅
@@ -24,7 +23,7 @@ Contributing to all three major browser engines:
 
 | Engine | What |
 |--------|------|
-| **Chromium** | OWNER status, JPEG XL, Tab Focus, DevTools, networking |
+| **Chromium** | OWNER status, JPEG XL, Tab Focus, DevTools |
 | **Firefox** | Resource Timing L3, Video lazy loading |
 | **WebKit** | Resource Timing L3 |
 
@@ -42,7 +41,6 @@ Contributing to all three major browser engines:
 
 <!-- BLOG-POST-LIST:START -->
 - [Lazy Loading for Video & Audio in Chrome](https://januschka.com/chromium-video-lazy-loading.html)
-- [Reviving HEv3 & HTTPS-RR in Chromium](https://januschka.com/reviving-hev3-https-rr.html)
 - [JPEG XL Returns to Chrome](https://januschka.com/chromium-jxl-resurrection.html)
 - [From Tweet to Chrome: Tab Focus Feature](https://januschka.com/chromium-focus-feature.html)
 - [Dynamic Chrome Themes: Building DHH's Vision](https://januschka.com/chromium-omarchy.html)
